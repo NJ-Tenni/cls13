@@ -1,0 +1,103 @@
+/*========common section start====*/
+body{
+    font-family: 'open sens', sans-serif;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+/*========common section end=====*/
+
+/*=======nav section start =====*/
+#primary_nav{
+    background-color: #02918c;
+}
+#primary_nav #menu ul li a{
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding: 13.5px 25px;
+    display: inline-block;
+}
+/*====== nav section end=====*/
+/*=======banner section start =====*/
+#banner{
+    background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(./banner_bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 726px;
+    color: #ffffff;
+}
+ #banner h1{
+    font-size: 62px;
+   font-weight: 800;
+    letter-spacing: 25px; 
+    text-transform: uppercase;
+}
+#banner h4{
+    font-size: 30px;
+    font-weight: 400;
+}
+#banner p{
+    font-size: 18px;
+    font-weight: 800;
+}
+#banner img{
+    margin: 35px 0;
+}
+#banner a{
+    color: black;
+    font-weight: 800;
+    display: inline-block;
+    background-color: #cfc91d;
+    padding: 24px 98px;
+    font-size: 15px;
+    transition: .4s;
+}
+
+/*====== banner section end=====*/
+/*=======about section start =====*/
+#about .section_info h2{
+    font-size: 46px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #02918c;
+    margin-top: 60px;
+}
+#about .section_info p{
+    font-size: 16px;
+    line-height: 41px;
+    color: #7e8287;
+}
+#about .section_info p b{
+    font-size: 23px;
+}
+#about .about_cards{
+    margin-top: 50px;
+}
+#about .about_card{
+    border-right: 1px solid #ccc;
+    padding: 36px 0;
+}
+#about .about_card span{
+    font-size: 30px;
+    color: #02918c;
+}
+#about .about_card h4{
+    font-size: 16px;
+    font-weight: 800;
+    color: #7e8287;
+    margin: 28px 0;
+}
+#about .about_card p{
+    color: #7e8287;
+    font-size: 11px;
+    line-height: 16.5px;
+}
+#about .about_card:last-child{
+    border: none;
+}
+/*====== about section end=====*/
